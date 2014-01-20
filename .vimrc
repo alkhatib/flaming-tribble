@@ -3,7 +3,7 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
-colorscheme dusk
+colorscheme Mustang
 
 set smartindent
 set tabstop=4
@@ -131,3 +131,8 @@ set listchars+=tab:▸\ ,eol:¬,trail:␣,extends:⇉,precedes:⇇,nbsp:·
 
 nnoremap k gk
 nnoremap j gj
+
+map <leader>t :TlistToggle<CR>
+map <leader>d :FufDir<CR>
+map <leader>f :FufFile<CR>
+map <leader>b :FufBuffer<CR>
