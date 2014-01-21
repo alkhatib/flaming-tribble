@@ -104,11 +104,11 @@ function! s:ClangCompleteInit()
   endif
 
   if !exists('g:clang_jumpto_declaration_key')
-    let g:clang_jumpto_declaration_key = '<C-]>'
+    let g:clang_jumpto_declaration_key = '<C-W>'
   endif
 
   if !exists('g:clang_jumpto_back_key')
-    let g:clang_jumpto_back_key = '<C-T>'
+    let g:clang_jumpto_back_key = '<C-Q>'
   endif
 
   call LoadUserOptions()
